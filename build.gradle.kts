@@ -69,6 +69,8 @@ subprojects {
         // Tests
         testImplementation("org.junit.jupiter:junit-jupiter:5.13.3")
         testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.13.3")
+        implementation("io.papermc:paperlib:1.0.8")
+        implementation("org.enginehub:squirrelid:0.3.2")
     }
 
     plugins.withId("java") {
