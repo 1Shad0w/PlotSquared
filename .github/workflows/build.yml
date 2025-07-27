@@ -3,6 +3,7 @@ name: Gradle Package
 on:
   release:
     types: [created]
+  workflow_dispatch: # 👈 Habilita el botón de ejecución manual
 
 jobs:
   build:
